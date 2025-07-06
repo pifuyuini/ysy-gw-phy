@@ -17,3 +17,13 @@
 1. 大部分代码在`/code`文件夹中，分为预处理、匹配滤波、误警率和时频图几个部分。
 2. 用于处理数据的代码被我封装在了`/core/ysy_gw_data_utils.py`中。完整的**笔记**在`/core/note.ipynb`中。
 3. 我上传的数据全部在`/data`中，特别说明的是`scores.txt`是误警率评估中处理4096s长的L1原始应变数据得到的结果。
+
+---
+
+## 其它资源
+
+- [用于引力波数据处理的工具包GWpy](https://gwpy.github.io/docs/stable/overview/)；
+- [GW170814的辅助通道数据（Witness数据）](https://gwosc.org/auxiliary/GW170814/)；
+- [一个时频图+CNN的Kaggle项目](https://github.com/mddunlap924/G2Net_Spectrogram-Classification)；
+- [王赫博士的《引力波探测中关于深度学习数据分析的研究》](https://iphysresearch.github.io/PhDthesis_html/)。
+
